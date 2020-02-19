@@ -23,7 +23,7 @@ public class PasswordValidator {
         String password="";
         while(!validPassword)
         {
-            System.out.println("Passwords must have at least 8 characters");
+            System.out.println("Passwords must have at least 10 characters");
             System.out.println("Passwords must have at least one special character");
             System.out.println("Please enter your desired password:"); 
             
@@ -38,7 +38,7 @@ public class PasswordValidator {
                     specialCharCount++;
                 }
             }
-            if(specialCharCount>0 &&password.length()>7)
+            if(specialCharCount>0 &&password.length()>9)
             {
                 validPassword=true;
             }
@@ -49,7 +49,8 @@ public class PasswordValidator {
         userCount++;
         System.out.println("New User Added");
         System.out.println("UserName: " + userName);
-        System.out.println("Password: just kidding can't show password");
+        System.out.println("Password: YOur password is saved to the local repo but you are unable to see it");
+        System.out.println("You can play UNo online Game by giving your username and password");
     }//end run method
    
     
