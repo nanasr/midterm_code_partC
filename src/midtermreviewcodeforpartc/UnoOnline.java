@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class UnoOnline 
 {
-    private User users[] = new User[100];//room for 100 online players!
+   // private User users[] = new User[100];//room for 100 online players!
      
     /**
      * Main method with call to private run method, to encapsulate our
@@ -25,7 +25,7 @@ public class UnoOnline
      */
     public static void main(String[] args) 
      {
-       UnoOnline newPortal = new UnoOnline();
+       PasswordValidator newPortal = new PasswordValidator();
        newPortal.run();
     }
      /**
@@ -36,6 +36,7 @@ public class UnoOnline
      * 2. The password must contain at least one "special character"
      * 
      */
+    /**
     private void run()
     {
         int userCount=0;//keep track of number of users for array
@@ -74,6 +75,6 @@ public class UnoOnline
         System.out.println("UserName: " + userName);
         System.out.println("Password: just kidding can't show password");
     }//end run method
-   
+   */
     
 }//end class

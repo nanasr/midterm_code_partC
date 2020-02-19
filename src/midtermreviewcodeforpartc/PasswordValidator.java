@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class PasswordValidator {
     private User users[] = new User[100];
-    private void run()
+    protected void run()
     {
         int userCount=0;//keep track of number of users for array
         Scanner sc = new Scanner(System.in);
